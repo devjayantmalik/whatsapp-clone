@@ -1,0 +1,31 @@
+.tabs {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--teal-green-dark);
+    color: white;
+}
+
+.tabs li {
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.tabs li.is-active {
+    border-bottom: 3px solid white;
+    opacity: 1;
+}
+
+.tabs svg{
+    width: 25px;
+    height: 25px;
+}
+
+.tabs .icon{
+    flex: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}

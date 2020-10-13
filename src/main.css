@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --teal-green: #128C7E;
+    --teal-green-dark: #075E54;
+    --light-green: #25D366;
+    --blue: #34B7F1;
+}

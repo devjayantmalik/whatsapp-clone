@@ -1,0 +1,8 @@
+.mobile-container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #eeeeee;
+    height: 80vh;
+    padding: 15px;
+    overflow: scroll;
+}

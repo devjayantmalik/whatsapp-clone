@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    background-color: var(--teal-green-dark);
+    color: white;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.header .title{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.header .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header svg {
+    width: 25px;
+    height: 25px;
+}
+
+.header svg:first-of-type {
+    margin-right: 20px;
+}
